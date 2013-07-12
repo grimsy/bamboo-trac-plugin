@@ -39,4 +39,4 @@ password = yourpassword
 ```
 Please note that I haven't tested the Basic authentication, and just used the same code that the HudsonTracPlugin was using
 
-For more info, visit [http://trac-hacks.org/wiki/BambooTracPlugin]
+For more info, visit http://trac-hacks.org/wiki/BambooTracPlugin
