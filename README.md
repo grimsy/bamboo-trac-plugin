@@ -24,8 +24,9 @@ At a minimum, you need the feed_url parameter
 ```
 [bamboo]
 feed_url= http://localhost/bamboo/rss/createAllBuildsRssFeed.action?feedType=rssAll&os_username=user&os_password=pass
-If you're using basic authentication on your bamboo installation, you should be able to use the following configuration
 ```
+If you're using basic authentication on your bamboo installation, you should be able to use the following configuration
+
 ```
 [bamboo]
 feed_url= http://localhost/bamboo/rss/createAllBuildsRssFeed.action?feedType=rssAll&os_authType=basic
