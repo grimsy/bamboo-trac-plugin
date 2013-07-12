@@ -1,4 +1,5 @@
 # Bamboo Trac Integration Plugin #
+
 ## Description ##
 
 Integrate ​Bamboo build results into the Trac timeline and (optionally) provide a navbar menu to link to the Bamboo instance.
@@ -11,7 +12,10 @@ This plugin requires that the ​python-feedparser library is installed on your 
 
 ## Installation ##
 
+```
 easy_install http://trac-hacks.org/svn/bambootracplugin/0.11/
+```
+
 Enable the plugin in trac.ini.
 ```
 [components]
@@ -34,3 +38,5 @@ username = yourusername
 password = yourpassword
 ```
 Please note that I haven't tested the Basic authentication, and just used the same code that the HudsonTracPlugin was using
+
+For more info, visit [http://trac-hacks.org/wiki/BambooTracPlugin]
